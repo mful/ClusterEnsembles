@@ -5,7 +5,7 @@ import os
 import unittest
 import numpy as np
 from sklearn.metrics import normalized_mutual_info_score
-import ClusterEnsembles as CE
+import clusterensembles as CE
 
 
 class HGPATest(unittest.TestCase):

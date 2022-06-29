@@ -1,4 +1,4 @@
-# ClusterEnsembles.py
+# clusterensembles.py
 #   Author: Takehiro Sano
 #   Contact: tsano430@gmail.com
 #   License: MIT License

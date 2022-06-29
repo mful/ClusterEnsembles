@@ -27,23 +27,23 @@ Usage
 `CE.cluster_ensembles` is used as follows.
 
 ```python
->>> import numpy as np
+>> > import numpy as np
 
->>> import ClusterEnsembles as CE
+>> > import clusterensembles as CE
 
->>> label1 = np.array([1, 1, 1, 2, 2, 3, 3])
+>> > label1 = np.array([1, 1, 1, 2, 2, 3, 3])
 
->>> label2 = np.array([2, 2, 2, 3, 3, 1, 1])
+>> > label2 = np.array([2, 2, 2, 3, 3, 1, 1])
 
->>> label3 = np.array([4, 4, 2, 2, 3, 3, 3])
+>> > label3 = np.array([4, 4, 2, 2, 3, 3, 3])
 
->>> label4 = np.array([1, 2, np.nan, 1, 2, np.nan, np.nan]) # `np.nan`: missing value
+>> > label4 = np.array([1, 2, np.nan, 1, 2, np.nan, np.nan])  # `np.nan`: missing value
 
->>> labels = np.array([label1, label2, label3, label4])
+>> > labels = np.array([label1, label2, label3, label4])
 
->>> label_ce = CE.cluster_ensembles(labels)
+>> > label_ce = CE.cluster_ensembles(labels)
 
->>> print(label_ce)
+>> > print(label_ce)
 [1 1 1 2 2 0 0]
 ```
 
