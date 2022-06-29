@@ -3,7 +3,6 @@
 [![PyPI](https://img.shields.io/pypi/v/ensembleclustering)](https://pypi.org/project/ClusterEnsembles/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/ensembleclustering)](https://pypi.org/project/ClusterEnsembles/)
-[![Downloads](https://pepy.tech/badge/ensembleclustering)](https://pepy.tech/project/ClusterEnsembles)
 [![GitHubActions](https://img.shields.io/github/workflow/status/burtonrj/ClusterEnsembles/ensembleclustering%20Testing)]()
 
 A Python package for cluster ensembles. Cluster ensembles generate a single consensus clustering label by using base labels obtained from multiple clustering algorithms. The consensus clustering label stably achieves a high clustering performance. 
