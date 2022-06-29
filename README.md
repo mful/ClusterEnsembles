@@ -1,14 +1,15 @@
 # ClusterEnsembles
 
-[![PyPI](https://img.shields.io/pypi/v/ClusterEnsembles)](https://pypi.org/project/ClusterEnsembles/)
+[![PyPI](https://img.shields.io/pypi/v/ensembleclustering)](https://pypi.org/project/ClusterEnsembles/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/ClusterEnsembles)](https://pypi.org/project/ClusterEnsembles/)
-[![Downloads](https://pepy.tech/badge/ClusterEnsembles)](https://pepy.tech/project/ClusterEnsembles)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/ensembleclustering)](https://pypi.org/project/ClusterEnsembles/)
+[![Downloads](https://pepy.tech/badge/ensembleclustering)](https://pepy.tech/project/ClusterEnsembles)
 [![GitHubActions](https://img.shields.io/github/workflow/status/burtonrj/ClusterEnsembles/ClusterEnsembles%Testing)]()
 
 A Python package for cluster ensembles. Cluster ensembles generate a single consensus clustering label by using base labels obtained from multiple clustering algorithms. The consensus clustering label stably achieves a high clustering performance. 
 
-This package was originally authored by Takehiro Sano but has since been removed from PyPi. This a forked version I am maintaining. All original code and functionality is unchanged, it is just maintained, tested, and published from here.
+This package was originally authored by Takehiro Sano but has since been removed from PyPi. 
+This a cloned version I am maintaining. All original code and functionality is unchanged, it is just maintained, tested, and published from here.
 
 <p align="center">
   <img width="600" src="https://user-images.githubusercontent.com/60049342/115107122-deb7b880-9fa3-11eb-98d6-9d1d25bf3ae8.png">
@@ -18,7 +19,7 @@ Installation
 ------------
 
 ```
-pip install ClusterEnsembles
+pip install ensembleclustering
 ```
 
 Usage
@@ -29,7 +30,7 @@ Usage
 ```python
 >> > import numpy as np
 
->> > import clusterensembles as CE
+>> > import ensembleclustering as CE
 
 >> > label1 = np.array([1, 1, 1, 2, 2, 3, 3])
 

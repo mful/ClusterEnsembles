@@ -7,7 +7,7 @@ from sklearn.metrics import normalized_mutual_info_score
 from ..ClusterEnsembles import cluster_ensembles
 
 
-def test_missing(self):
+def test_missing():
     base_clusters = np.array([
         [1, 1, 1, 2, 2, 3, 3],
         [2, 2, 2, 3, 3, 1, 1],

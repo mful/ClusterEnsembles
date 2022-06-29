@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "ClusterEnsembles"
+name = "ensembleclustering"
 version = "0.1.0"
 description = ""
 authors = ["Takehiro Sano <tsano430@gmail.com>", "burtonrj <burtonrj@cardiff.ac.uk>"]

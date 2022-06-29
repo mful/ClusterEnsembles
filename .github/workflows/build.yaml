@@ -1,4 +1,4 @@
-name: clusterensembles Testing
+name: ensembleclustering Testing
 
 on: push
 
@@ -33,4 +33,4 @@ jobs:
         if: steps.cache.outputs.cache-hit != 'true'
 
       - name: Run pytest
-        run: poetry run python -m pytest --import-mode=append clusterensembles/tests/
+        run: poetry run python -m pytest --import-mode=append ensembleclustering/tests/

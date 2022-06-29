@@ -21,7 +21,7 @@ def test_missing():
     assert nmi_score == 1.0
 
 
-def test_performance(self):
+def test_performance():
     base_clusters = np.loadtxt(os.path.dirname(__file__) + '/data/base_clusters.csv', delimiter=',', dtype=int)
     label_true = np.loadtxt(os.path.dirname(__file__) + '/data/label_true.csv', delimiter=',', dtype=int)
     label_pred = cluster_ensembles(base_clusters, solver='hgpa', random_state=0)

@@ -12,7 +12,7 @@ def parse_requirements_file(filename):
 
 
 setup(
-    name='clusterensembles',
+    name='ensembleclustering',
     version=__version__,  
     packages=find_packages(exclude=('tests',)), 
 
@@ -38,7 +38,7 @@ setup(
     ],
 
     package_data={
-        'clusterensembles': [
+        'ensembleclustering': [
             'kahypar_config/*',
             ]
     },
