@@ -15,7 +15,7 @@ numpy = "^1.19.5"
 scipy = "^1.5.0"
 pymetis = "2020.1"
 scikit-learn = ">=1.0.1, <1.1.0"
-kahypar = "^1.1.7"
+kahypar = "^1.1.8"
 pytest = "^7.1.2"
 
 [build-system]

@@ -1,11 +1,7 @@
-# test_hgpa.py
-
-
 import os
-import unittest
 import numpy as np
 from sklearn.metrics import normalized_mutual_info_score
-from ..ClusterEnsembles import cluster_ensembles
+from ensembleclustering import cluster_ensembles
 
 
 def test_missing():
