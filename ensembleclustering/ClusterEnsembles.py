@@ -65,7 +65,7 @@ def to_pymetis_format(adj_mat):
     idx_row, idx_col = row.nonzero()
     val = row[idx_row, idx_col]
     adjncy += list(idx_col)
-    eweights += list(val.toarray()[0])
+    eweights += list(np.array(val)[0])
     xadj.append(len(adjncy))
 
   return xadj, adjncy, eweights
